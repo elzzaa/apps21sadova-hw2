@@ -8,6 +8,9 @@ public class Node {
     public Node() {
     }
 
+    public Node(Object elem) {
+    }
+
     @Override
     public String toString() {
         return value.toString();
